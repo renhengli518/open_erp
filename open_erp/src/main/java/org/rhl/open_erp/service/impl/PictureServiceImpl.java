@@ -42,7 +42,7 @@ public class PictureServiceImpl implements PictureService {
 
 				// 图片上传成功后，将图片的地址写回
 				resultMap.put("error", 0);
-				resultMap.put("url", "/pic/" + newName);
+				resultMap.put("url", "/image/" + newName);
 				return resultMap;
 
 			} else {
