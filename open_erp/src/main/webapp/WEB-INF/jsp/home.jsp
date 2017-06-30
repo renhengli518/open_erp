@@ -14,7 +14,7 @@
 	padding: 10px 10px 10px 10px;
 }
 .divNorth{
-	background:url('image/logo_linkgap.png') no-repeat left center;
+	background:url('/static/image/logo_linkgap.png') no-repeat left center;
 	background-size:17% 80%;
 	background-color: rgb(50,125,183);
 }

@@ -5,13 +5,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="/image/logo_16.png" mce_href="/image/logo_16.png" rel="shortcut icon" type="image/x-icon">
+<link href="/static/image/logo_16.png" mce_href="/static/image/logo_16.png" rel="shortcut icon" type="image/x-icon">
 <meta name="copyright" content="Copyright 2016" />
 <meta name="Author" content="菱感电子商务（上海）有限公司" />
 <meta name="keywords" content="菱感电子商务（上海）有限公司，菱感电子，菱感电子商务，菱感电子商务ERP系统" />
 <meta name="description" content="菱感电子商务ERP系统" />
 <title>菱感电子商务ERP系统登录</title>
-<link rel="stylesheet" type="text/css" href="css/login/style.css" />
+<link rel="stylesheet" type="text/css" href="/static/css/login/style.css" />
 <style type="text/css">
 	.download{margin:20px 33px 10px;*margin-bottom:30px;padding:5px;border-radius:3px;-webkit-border-radius:3px;
 		-moz-border-radius:3px;background:#e6e6e6;border:1px dashed #df0031;font-size:14px;font-family:Comic Sans MS;
@@ -92,7 +92,7 @@
 			</form>
 		</div>
 	</div>
-<script type="text/javascript" src="js/login/placeholder.js"></script>
+<script type="text/javascript" src="/static/js/login/placeholder.js"></script>
 <script type="text/javascript">
 		$("#login")
 				.click(
@@ -242,7 +242,7 @@
 		}
 	</script>
 <!--[if IE 6]>
-<script type="text/javascript" src="js/login/belatedpng.js" ></script>
+<script type="text/javascript" src="/static/js/login/belatedpng.js" ></script>
 <script type="text/javascript">
 	DD_belatedPNG.fix("*");
 </script>

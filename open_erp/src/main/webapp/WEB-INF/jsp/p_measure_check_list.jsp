@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
-<link href="js/kindeditor-4.1.10/themes/default/default.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" charset="utf-8" src="js/kindeditor-4.1.10/kindeditor-all-min.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+<link href="/static/js/kindeditor-4.1.10/themes/default/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" charset="utf-8" src="/static/js/kindeditor-4.1.10/kindeditor-all-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/static/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
 
 <table  id="pMeasureCheckList" title="工序计量质检" class="easyui-datagrid" data-options="singleSelect:false,
 		collapsible:true,pagination:true,rownumbers:true,url:'p_measure_check/list',method:'get',pageSize:10,

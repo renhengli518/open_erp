@@ -30,9 +30,9 @@
 	
 	<mvc:default-servlet-handler/>
 	<!-- 资源映射 -->
-	<mvc:resources location="/WEB-INF/css/" mapping="/css/**"/>
-	<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/> 
-	<mvc:resources location="/WEB-INF/image/" mapping="/image/**"/>
+	<mvc:resources location="/WEB-INF/static/css/" mapping="/static/css/**"/>
+	<mvc:resources location="/WEB-INF/static/js/" mapping="/static/js/**"/> 
+	<mvc:resources location="/WEB-INF/static/image/" mapping="/static/image/**"/>
 	
 	<!--配置拦截器, 多个拦截器,则顺序执行 -->  
 	<!-- <mvc:interceptors>    
